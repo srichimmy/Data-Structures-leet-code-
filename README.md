@@ -1,4 +1,4 @@
-# 🚀 Data Structures & Algorithms Practice
+# 🚀 Data Structures & Algorithms 
 
 ![Java](https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java)
 ![Repo Size](https://img.shields.io/github/repo-size/srichimmy/Data-Structures-leet-code-?style=for-the-badge)
@@ -6,21 +6,20 @@
 ![Commit Activity](https://img.shields.io/github/commit-activity/m/srichimmy/Data-Structures-leet-code-?style=for-the-badge)
 
 ---
-
-## 📊 Practice Progress (Auto Updated)
+## 📊 Practice Progress 
 
 | Topic | Problems |
 |-------|----------|
-| Strings | 1 |
-| Arrays | 0 |
-| LinkedList | 0 |
-| Stack | 0 |
-| Queue | 0 |
-| Trees | 0 |
-| Graphs | 0 |
-| DynamicProgramming | 0 |
+| Strings | <!--STRINGS_COUNT--> |
+| Arrays | <!--ARRAYS_COUNT--> |
+| LinkedList | <!--LINKEDLIST_COUNT--> |
+| Stack | <!--STACK_COUNT--> |
+| Queue | <!--QUEUE_COUNT--> |
+| Trees | <!--TREES_COUNT--> |
+| Graphs | <!--GRAPHS_COUNT--> |
+| DynamicProgramming | <!--DP_COUNT--> |
 
-> 🔥 Total Problems Solved: 1
+> 🔥 Total Problems Solved: <!--TOTAL_COUNT-->
 
 ---
 
@@ -58,15 +57,6 @@ Data-Structures-leet-code/
 
 ---
 
-## 📝 Example Implementation
-
-### Reverse String II
-- Topic: Strings
-- Approach: Two Pointers
-- Time Complexity: O(n)
-- Space Complexity: O(n)
-
----
 
 ## 📈 GitHub Contribution Graph
 
