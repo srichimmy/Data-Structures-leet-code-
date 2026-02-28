@@ -26,15 +26,15 @@ jobs:
 
           TOTAL=$((STRINGS+ARRAYS+LINKEDLIST+STACK+QUEUE+TREES+GRAPHS+DP))
 
-          sed -i "s/<!--STRINGS_COUNT-->/$STRINGS/" README.md
-          sed -i "s/<!--ARRAYS_COUNT-->/$ARRAYS/" README.md
-          sed -i "s/<!--LINKEDLIST_COUNT-->/$LINKEDLIST/" README.md
-          sed -i "s/<!--STACK_COUNT-->/$STACK/" README.md
-          sed -i "s/<!--QUEUE_COUNT-->/$QUEUE/" README.md
-          sed -i "s/<!--TREES_COUNT-->/$TREES/" README.md
-          sed -i "s/<!--GRAPHS_COUNT-->/$GRAPHS/" README.md
-          sed -i "s/<!--DP_COUNT-->/$DP/" README.md
-          sed -i "s/<!--TOTAL_COUNT-->/$TOTAL/" README.md
+          sed -i "s/| Strings | .*/| Strings | $STRINGS |/" README.md
+          sed -i "s/| Arrays | .*/| Arrays | $ARRAYS |/" README.md
+          sed -i "s/| LinkedList | .*/| LinkedList | $LINKEDLIST |/" README.md
+          sed -i "s/| Stack | .*/| Stack | $STACK |/" README.md
+          sed -i "s/| Queue | .*/| Queue | $QUEUE |/" README.md
+          sed -i "s/| Trees | .*/| Trees | $TREES |/" README.md
+          sed -i "s/| Graphs | .*/| Graphs | $GRAPHS |/" README.md
+          sed -i "s/| DynamicProgramming | .*/| DynamicProgramming | $DP |/" README.md
+          sed -i "s/Total Problems Solved:.*/Total Problems Solved: $TOTAL/" README.md
 
       - name: Commit Changes
         run: |

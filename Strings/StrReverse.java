@@ -1,5 +1,4 @@
-package strings;
-
+package Strings;
 public class StrReverse {
     public static void reverseString(char[] s) {
         int n=s.length;

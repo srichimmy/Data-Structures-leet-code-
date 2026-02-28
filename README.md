@@ -10,16 +10,16 @@
 
 | Topic | Problems |
 |-------|----------|
-| Strings | 2 |
-| Arrays | 0 |
-| LinkedList | 0 |
-| Stack | 0 |
-| Queue | 0 |
-| Trees | 0 |
-| Graphs | 0 |
-| DynamicProgramming | 0 |
+| Strings | <!--STRINGS_COUNT--> |
+| Arrays | <!--ARRAYS_COUNT--> |
+| LinkedList | <!--LINKEDLIST_COUNT--> |
+| Stack | <!--STACK_COUNT--> |
+| Queue | <!--QUEUE_COUNT--> |
+| Trees | <!--TREES_COUNT--> |
+| Graphs | <!--GRAPHS_COUNT--> |
+| DynamicProgramming | <!--DP_COUNT--> |
 
-> 🔥 Total Problems Solved: 2
+> 🔥 Total Problems Solved: <!--TOTAL_COUNT-->
 
 ---
 
