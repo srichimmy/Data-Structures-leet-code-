@@ -1,0 +1,45 @@
+name: Update DSA Progress
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Count Java Files
+        run: |
+          STRINGS=$(find Strings -name "*.java" 2>/dev/null | wc -l)
+          ARRAYS=$(find Arrays -name "*.java" 2>/dev/null | wc -l)
+          LINKEDLIST=$(find LinkedList -name "*.java" 2>/dev/null | wc -l)
+          STACK=$(find Stack -name "*.java" 2>/dev/null | wc -l)
+          QUEUE=$(find Queue -name "*.java" 2>/dev/null | wc -l)
+          TREES=$(find Trees -name "*.java" 2>/dev/null | wc -l)
+          GRAPHS=$(find Graphs -name "*.java" 2>/dev/null | wc -l)
+          DP=$(find DynamicProgramming -name "*.java" 2>/dev/null | wc -l)
+
+          TOTAL=$((STRINGS+ARRAYS+LINKEDLIST+STACK+QUEUE+TREES+GRAPHS+DP))
+
+          sed -i "s/<!--STRINGS_COUNT-->/$STRINGS/" README.md
+          sed -i "s/<!--ARRAYS_COUNT-->/$ARRAYS/" README.md
+          sed -i "s/<!--LINKEDLIST_COUNT-->/$LINKEDLIST/" README.md
+          sed -i "s/<!--STACK_COUNT-->/$STACK/" README.md
+          sed -i "s/<!--QUEUE_COUNT-->/$QUEUE/" README.md
+          sed -i "s/<!--TREES_COUNT-->/$TREES/" README.md
+          sed -i "s/<!--GRAPHS_COUNT-->/$GRAPHS/" README.md
+          sed -i "s/<!--DP_COUNT-->/$DP/" README.md
+          sed -i "s/<!--TOTAL_COUNT-->/$TOTAL/" README.md
+
+      - name: Commit Changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git commit -m "Auto update problem count" || echo "No changes"
+          git push
