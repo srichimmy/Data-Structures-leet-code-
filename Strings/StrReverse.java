@@ -1,4 +1,4 @@
-package Strings;
+package strings;
 
 public class StrReverse {
     public static void reverseString(char[] s) {
@@ -14,14 +14,10 @@ public class StrReverse {
         }
         
     }
-    public static void main(String[] args){
-        
+    public static void main(String[] args){   
         char[] s={'h','e','l','l','o'};
         reverseString(s);
         System.out.println(s);
-
-        
-
     }
 }
     

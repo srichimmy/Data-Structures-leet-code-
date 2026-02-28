@@ -1,4 +1,4 @@
-package Strings;
+package strings;
 class ReverseStr {
     public String reverseStr(String s, int k) {
         // change string to array for easy access
