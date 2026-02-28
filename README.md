@@ -78,7 +78,7 @@ Consistent daily problem solving 🚀
 
 ## 🔥 LeetCode Stats
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/srichimmy?theme=dark&font=Karma)
+![LeetCode Stats](https://leetcard.jacoblin.cool/sripojitha02?theme=dark&font=Karma)
 
 ---
 
