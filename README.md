@@ -10,7 +10,7 @@
 
 | Topic | Problems |
 |-------|----------|
-| Strings | 4 |
+| Strings | 6 |
 | Arrays | 0 |
 | LinkedList | 0 |
 | Stack | 0 |
@@ -19,7 +19,7 @@
 | Graphs | 0 |
 | DynamicProgramming | 0 |
 
-> 🔥 Total Problems Solved: 4
+> 🔥 Total Problems Solved: 6
 
 ---
 
