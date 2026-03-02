@@ -1,9 +1,8 @@
 package Strings;
-import java.util.*;
 
 
 
-public class Stringbuilder {
+public class MyStringBuilder {
     //in java string is immutable so instead of creating a new string which is time taking process
     //so in jave there is a optimised string class called string builder which does most operations
     //StringBuilder declaration
@@ -28,14 +27,5 @@ public class Stringbuilder {
         s.append("l");
         s.append("o");
         System.out.println(s);
-        
-
-        
-
-
-    }
-
-
-
-    
+    }    
 }

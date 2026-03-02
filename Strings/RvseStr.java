@@ -1,5 +1,4 @@
 package Strings;
-import java.util.*;
 public class RvseStr {
     public static void main(String[] args){
         //reverse a string using string builder
