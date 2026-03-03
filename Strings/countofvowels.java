@@ -1,7 +1,6 @@
 package Strings;
 public class countofvowels {
-    public int count(String a){
-        
+    public int count(String a){   
         String b=a.toLowerCase();
         int count=0;
         int n=a.length();
@@ -12,11 +11,8 @@ public class countofvowels {
                 count++;
             }
             left++;
-
         }
         return count;
-
-
     }
     public boolean isvowel(char ch){
         return ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u';
@@ -26,8 +22,6 @@ public class countofvowels {
         countofvowels obj=new countofvowels();
         int result=obj.count(a);
         System.out.println(result);
-
-    }
-    
+    } 
 }
 

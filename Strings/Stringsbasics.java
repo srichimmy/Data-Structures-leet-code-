@@ -1,7 +1,6 @@
 package Strings;
 import java.util.*;
-public class Stringsbasics {
-    
+public class Stringsbasics { 
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         //string declaration
@@ -46,8 +45,5 @@ public class Stringsbasics {
         int number=123;
         String srg=Integer.toString(number);
         System.out.println(srg);
-
-
-
     }
 }
