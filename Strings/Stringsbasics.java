@@ -45,5 +45,6 @@ public class Stringsbasics {
         int number=123;
         String srg=Integer.toString(number);
         System.out.println(srg);
+        sc.close();
     }
 }
