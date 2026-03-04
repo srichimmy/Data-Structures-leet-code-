@@ -11,7 +11,7 @@
 | Topic | Problems |
 |-------|----------|
 | Strings | 8 |
-| Arrays | 1 |
+| Arrays | 2 |
 | LinkedList | 0 |
 | Stack | 0 |
 | Queue | 0 |
@@ -19,7 +19,7 @@
 | Graphs | 0 |
 | DynamicProgramming | 0 |
 
-> 🔥 Total Problems Solved: 9
+> 🔥 Total Problems Solved: 10
 
 ---
 
