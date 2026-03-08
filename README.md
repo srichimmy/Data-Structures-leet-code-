@@ -66,7 +66,7 @@ Data-Structures-leet-code/
 
 Consistent daily problem solving 🚀
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=srichimmy&theme=github-dark)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=poojitha-devhub&theme=github-dark)
 
 ---
 
