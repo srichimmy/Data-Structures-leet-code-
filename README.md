@@ -10,10 +10,10 @@
 
 | Topic | Problems |
 |-------|----------|
-| Numbers | 3 |
+| Numbers | 2 |
 | Strings | 9 |
 | Arrays | 7 |
-| BitManipulation | 3 |
+| BitManipulation | 4 |
 | LinkedList | 0 |
 | Stack | 0 |
 | Queue | 0 |
