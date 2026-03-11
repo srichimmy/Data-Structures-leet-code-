@@ -1,6 +1,6 @@
 package BitManipulation;
 //get bit-to know which bit
-//set bit-to chnage 0 to 1 and leave 1 as it is
+//set bit-to change 0 to 1 and leave 1 as it is
 //clear bit-to change 1 to 0 and leave 0 as it is
 //update bit- to update 0 to 1 and 1 to 0
 
