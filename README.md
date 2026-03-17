@@ -80,7 +80,7 @@ Consistent daily problem solving 🚀
 
 - Solve 1–3 problems daily
 - Push consistently
-- Maintain structured topic-wise learning
+
 
 ---
 
