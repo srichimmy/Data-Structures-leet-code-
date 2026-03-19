@@ -14,14 +14,14 @@
 | Strings | 9 |
 | Arrays | 12 |
 | BitManipulation | 8 |
-| LinkedList | 0 |
+| LinkedList | 2 |
 | Stack | 0 |
 | Queue | 0 |
 | Trees | 0 |
 | Graphs | 0 |
 | DynamicProgramming | 0 |
 
-> 🔥 Total Problems Solved: 35
+> 🔥 Total Problems Solved: 37
 
 ---
 
