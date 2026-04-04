@@ -1,7 +1,7 @@
 package LinkedLists;
 
 public class reverseList {
-    //recursive 
+    //iterate
     //no extra memory must be used
     Node head;
     class Node{
